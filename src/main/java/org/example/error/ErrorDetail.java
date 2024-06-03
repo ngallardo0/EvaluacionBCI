@@ -14,5 +14,27 @@ public class ErrorDetail {
     this.detail = detail;
   }
 
+  public Date getTimestamp() {
+    return timestamp;
+  }
 
+  public void setTimestamp(Date timestamp) {
+    this.timestamp = timestamp;
+  }
+
+  public String getDetail() {
+    return detail;
+  }
+
+  public void setDetail(String detail) {
+    this.detail = detail;
+  }
+
+  public int getCode() {
+    return code;
+  }
+
+  public void setCode(int code) {
+    this.code = code;
+  }
 }
